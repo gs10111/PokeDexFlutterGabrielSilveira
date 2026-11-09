@@ -1,0 +1,22 @@
+name: pokedex
+description: "Aula LabDAMD - Pokédex em Flutter (código base do aluno)."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Material 3 como pacote do pub.dev (mesmo conteúdo de package:flutter/material.dart)
+  http: ^1.6.0
+  material_ui: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
